@@ -1,3 +1,5 @@
+package spark.action
+
 import org.apache.spark.sql.types.{IntegerType, StringType, StructType}
 import org.apache.spark.sql.{Row, SparkSession}
 

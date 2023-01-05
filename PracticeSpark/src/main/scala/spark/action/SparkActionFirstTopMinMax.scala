@@ -1,3 +1,5 @@
+package spark.action
+
 import org.apache.spark.sql.SparkSession
 
 object SparkActionFirstTopMinMax extends App{
