@@ -6,3 +6,12 @@ lazy val root = (project in file("."))
   .settings(
     name := "PracticeSpark"
   )
+
+libraryDependencies += "mysql" % "mysql-connector-java" % "8.0.31"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.3.1"
+libraryDependencies += "org.apache.spark" %% "spark-mllib" % "3.3.1" % "provided"
+libraryDependencies += "com.datastax.cassandra" % "cassandra-driver-core" % "3.11.3"
+libraryDependencies += "com.codahale.metrics" % "metrics-core" % "3.0.2"
+libraryDependencies += "com.datastax.spark" %% "spark-cassandra-connector" % "3.2.0"
+libraryDependencies += "com.datastax.spark" %% "spark-cassandra-connector-driver" % "3.2.0"
+libraryDependencies += "joda-time" % "joda-time" % "2.12.1"

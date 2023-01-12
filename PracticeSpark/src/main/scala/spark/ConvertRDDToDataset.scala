@@ -25,4 +25,5 @@ object ConvertRDDToDataset extends App {
 //  Convert RDD to Dataset
   val ds = spark.createDataset(rdd).toDF(columns:_*)
   ds.show()
+
 }

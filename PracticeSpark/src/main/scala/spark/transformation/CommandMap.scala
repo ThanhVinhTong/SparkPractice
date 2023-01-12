@@ -33,6 +33,7 @@ object CommandMap extends App {
   val rdd2 = rdd.map(f => (f, 1))
   rdd2.foreach(println)
 
+  println("\n_____________________________________________________________________________________\n")
   /*
   map on dataframe
    */
